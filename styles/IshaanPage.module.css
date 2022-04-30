@@ -74,27 +74,3 @@
 .centered_text {
     text-align: center;
 }
-
-.githubbutton {
-    background-color: transparent;
-    border: none;
-    width: 100px;
-    height: auto;
-}
-
-.githubbutton:hover {
-    background-color: transparent;
-    border: none;
-    width: 100px;
-    height: auto;
-    cursor: pointer;
-}
-
-.githubavatar {
-    width: inherit;
-    height: auto;
-    border: solid;
-    border-width: 5px;
-    border-color: pink;
-    border-radius: 20%;
-}

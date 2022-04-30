@@ -6,7 +6,7 @@ import styles from '../styles/Button.module.css';
 const GithubButton = ({ children = "click me", avatar_path, path}) => {
     const router = useRouter();
     return <button className={styles.githubbutton} onClick={() => router.push(path)}>
-        <img className={styles.githubavatar} src={avatar}></img>
+        <img className={styles.githubavatar} src={avatar_path}></img>
     </button>;
 };
 
