@@ -1,4 +1,4 @@
-.lanzintro {
+.lanzskills {
     text-align: left;
     height: calc(100vh - 650px);
     display: flex;
@@ -9,21 +9,4 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-}
-
-.lanzintro h1 {
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
-    width: 100%;
-}
-
-.lanzintro p{
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 50px;
-    width: 75%;
-    padding-bottom: 15%;
 }
