@@ -4,6 +4,7 @@ import styles from "../styles/Lanzgit.module.css";
 
 const lanzgit = () => (
     <div className={styles.lanzgit}>
+        <img src="lanzgitpic.PNG" alt></img>
         <Link href="https://github.com/Bodyshots">
             <a className={styles.title}> Github </a>
         </Link>
