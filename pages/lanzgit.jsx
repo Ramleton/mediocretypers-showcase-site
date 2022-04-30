@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from "next/link";
+import GithubButton from '../components/GithubButton';
 import styles from "../styles/Lanzgit.module.css";
 
 const lanzgit = () => (
     <div className={styles.lanzgit}>
-        <img src="lanzgitpic.PNG" alt></img>
+        <avatar_pos>
+          <GithubButton path="https://github.com/Bodyshots" avatar_path="https://avatars.githubusercontent.com/u/67764300?v=4" avatar_style={styles.avatar}>
+          </GithubButton>
+        </avatar_pos>
         <Link href="https://github.com/Bodyshots">
             <a className={styles.title}> Github </a>
         </Link>
