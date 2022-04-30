@@ -1,0 +1,26 @@
+.lanzintro {
+    text-align: left;
+    height: calc(100vh - 650px);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: darkslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lanzintro h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    width: 100%;
+}
+
+.lanzintro p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    width: 75%;
+    padding-bottom: 15%;
+}

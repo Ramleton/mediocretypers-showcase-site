@@ -1,10 +1,12 @@
 import React from 'react';
+import LanzIntro from './lanzintro';
+import LanzGit from './lanzgit';
 
 const lanz = () => (
     <div>
-      <h1>my page</h1>
-      <p>epic</p>
+      <LanzIntro></LanzIntro>
+      <LanzGit></LanzGit>
     </div>
-  );
+);
 
-  export default lanz;
+export default lanz;
