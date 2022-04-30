@@ -30,13 +30,12 @@ const Ishaan = () => {
                     <h3>And this personal website</h3>
                 </div>    
             </div>
-            <h4>Contact</h4>
-            <ul>
-                <li>Github
-                    <GithubButton path="https://github.com/Ramleton" avatar_path="https://avatars.githubusercontent.com/u/77259553?v=4"></GithubButton>
-                </li>
-                <li>Email: ishaan.saini@student.utoronto.ca</li>
-            </ul>
+            <h3 className={styles.centered_text}>Contact Me!</h3>
+            <div className={styles.contact}>
+                <GithubButton path="https://github.com/Ramleton" avatar_path="https://avatars.githubusercontent.com/u/77259553?v=4"></GithubButton>
+                Github<br />
+                Email: ishaan.saini@student.utoronto.ca
+            </div>
         </div>;
 };
 
