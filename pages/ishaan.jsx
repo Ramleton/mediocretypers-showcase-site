@@ -1,7 +1,6 @@
-import { useRouter } from 'next/router'; /* hook: resusable piece of code allowing us to have diff functionalities */
 import React from 'react';
 
-import Button from "../components/Button";
+import GithubButton from '../components/GithubButton';
 import styles from "../styles/IshaanPage.module.css";
 
 const Ishaan = () => {
@@ -34,7 +33,7 @@ const Ishaan = () => {
             <h4>Contact</h4>
             <ul>
                 <li>Github
-                    <GithubButton path="https://github.com/Ramleton" avatar="https://avatars.githubusercontent.com/u/77259553?v=4"></GithubButton>
+                    <GithubButton path="https://github.com/Ramleton" avatar_path="https://avatars.githubusercontent.com/u/77259553?v=4"></GithubButton>
                 </li>
                 <li>Email: ishaan.saini@student.utoronto.ca</li>
             </ul>
