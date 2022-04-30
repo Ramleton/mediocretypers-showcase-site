@@ -8,7 +8,6 @@ import styles from '../styles/Home.module.css';
 
 const main = () => (
   <div className={styles.home}>
-    <NavBar></NavBar>
     <h1>test</h1>
     <p>help</p>
   </div>
