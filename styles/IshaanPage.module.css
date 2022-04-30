@@ -1,11 +1,12 @@
-.list {
-    list-style: none;
-}
-
 .page {
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem 0;
     background-color: #09031c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: aliceblue;
-    float: auto;
 }
 
 .experience_grid {
@@ -63,14 +64,28 @@
 }
 
 .projects {
+    justify-content: space-evenly;
     display: flex;
+    flex-direction: row;
 }
 
 .project {
+    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .centered_text {
+    text-align: center;
+}
+
+.centered_items {
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
