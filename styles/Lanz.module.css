@@ -12,16 +12,54 @@
                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.skills_contacts_row {
-    flex-direction: row;
+.lanz bold {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.skills {
+    text-align: left;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 2%;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.contact {
+    text-align: right;
+    justify-content: right;
+    font-size: 30px;
+    margin: auto;
+    height: auto;
+    padding-right: 2%;
+    border-color: red;
+    border-width: 5px;
+    border-width: 100%;
 }
 
 .lanz h1 {
     font-size: 60px;
     font-weight: bold;
+    width:auto;
+    height: auto;
+    line-height: 2em;
+}
+
+.lanz ul {
+    margin-bottom: 0%;
 }
 
 .clickable {
     display: inline-block;
     cursor: pointer;
+    overflow: hidden;
 }

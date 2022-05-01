@@ -31,7 +31,7 @@ const lanzgit = () => (
     </div>
         <div className={styles.column}>
           <Link href="https://github.com/Bodyshots">
-            <h2 className={styles.clickable}>Github </h2>
+            <h2 className={styles.clickable}>Github</h2>
           </Link>
           <p className={styles.proj_text}>Here's where you can find all of my projects. Currently, I have three (non-school related) projects.
            Click any of them to go to their respective source code pages:</p>
@@ -72,8 +72,6 @@ const lanzgit = () => (
                                               <li>A course folder, inside the year folder</li>
                                               <li>X week folders inside your course folder</li>
           <br />
-          <br />
-
         </div>
     </div>
 );

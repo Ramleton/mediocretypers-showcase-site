@@ -65,7 +65,7 @@
 
 .image {
     width: 95%;
-    height: 23vh;
+    height: initial;
 }
 
 .desc {
@@ -92,9 +92,15 @@
 
 .proj_pic2 {
     display: block;
-    height: 50%;
-    width: 50%;
+    max-width: 38vw;
+    max-height: 10vw;
+    margin-top: 5%;
+    position: relative;
+    height: auto;
+    width: auto;
     margin: auto;
+    top: 330px;
+    transform: scale(1.05);
 }
 
 .lanzgit li {
