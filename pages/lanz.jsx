@@ -8,11 +8,17 @@ const lanz = () => (
     <div className={styles.lanz}>
       <LanzIntro></LanzIntro>
       <LanzGit></LanzGit>
-      <Link href="https://github.com/Ramleton/mediocretypers-showcase-site">
-        <div className={styles.htitle}>
-          <h1 className={styles.websiteclick}>...and this website!</h1>
+      <div className={styles.row}>
+        <div className={styles.websiteclick}>
+          <h1>
+            <div className={styles.websiteclick}>
+              <Link href="https://github.com/Ramleton/mediocretypers-showcase-site">
+                <a>...and this website!</a>
+              </Link>
+            </div>
+          </h1>
         </div>
-      </Link>
+      </div>
       <div className={styles.row}>
         <div className={styles.column}>
           <div className={styles.skills}>
@@ -27,9 +33,13 @@ const lanz = () => (
           <div className={styles.contact}>
             <h2>Contact Information</h2>
               <ul>Email: lanzangeles100@gmail.com</ul>
-              <Link href="https://www.linkedin.com/in/lanzangeles/">
-              <ul className={styles.clickable}>LinkedIn</ul>
-              </Link>
+                <ul>
+                  <div className={styles.linkedinclick}>
+                    <Link href="https://www.linkedin.com/in/lanzangeles/">  
+                      <a>LinkedIn</a>
+                    </Link>
+                  </div>
+                </ul>
           </div>
         </div>
       </div>

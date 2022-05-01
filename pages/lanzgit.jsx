@@ -31,18 +31,22 @@ const lanzgit = () => (
         </div>
     </div>
         <div className={styles.column}>
-          <Link href="https://github.com/Bodyshots">
-            <div className={styles.htitle}>
-              <h2 className={styles.gitclick}>Github</h2>
+          <h2>
+            <div className={styles.gitclick}>
+              <Link href="https://github.com/Bodyshots">
+                <a>Github</a>
+              </Link>
             </div>
-          </Link>
+          </h2>
           <p className={styles.proj_text}>Here's where you can find all of my projects. Currently, I have three (non-school related) projects.
            Click any of them to go to their respective source code pages:</p>
-          <Link href="https://github.com/Bodyshots/seducer-bootleg">
-            <div className={styles.htitle}>
-              <h2 className={styles.seduceclick}>(Not) Super Seducer: The Bootleg Version (Python)</h2>
-            </div>
-          </Link>
+            <h2>
+              <div className={styles.seduceclick}>
+                <Link href="https://github.com/Bodyshots/seducer-bootleg">
+                 <a>(Not) Super Seducer: The Bootleg Version (Python)</a>
+               </Link>
+             </div>
+           </h2>
           <p className={styles.proj_text}>A single-player dating game in which the player has to endure a series of questions.
           Depending on your date's personality and how you respond to a question, you may gain or lose confidence
           in yourself. Go down to 0% confidence and it's game over.
@@ -57,11 +61,13 @@ const lanzgit = () => (
           <p className={styles.proj_text}>Play the game to try and find out if you can endure the ruthless questioning from your
           date!</p>
           <br />
-          <Link href="https://github.com/Bodyshots/MassFolderCreator">
-            <div className={styles.htitle}>
-              <h2 className={styles.creatorclick}>Mass File Creator (Java)</h2>
+          <h2>
+            <div className={styles.creatorclick}>
+              <Link href="https://github.com/Bodyshots/MassFolderCreator">
+                <a>Mass File Creator (Java)</a>
+              </Link>
             </div>
-          </Link>
+          </h2>
           <p className={styles.proj_text}>A simple program that allows you to create multiple folders at once,
           wherever you are.
           <br />

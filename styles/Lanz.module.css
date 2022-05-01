@@ -46,12 +46,17 @@
     border-width: 100%;
 }
 
+.row {
+    flex: 50%;
+    display: flex;
+    text-align: center;
+}
+
 .lanz h1 {
     font-size: 60px;
     font-weight: bold;
-    width:auto;
-    height: auto;
     line-height: 2em;
+    flex-direction: column;
 }
 
 .lanz ul {
@@ -59,13 +64,32 @@
 }
 
 .htitle {
+    display:block;
+    cursor: pointer;
     text-align: center;
     font-size: 30px;
-    width: 100%;
+    width: auto;
+    margin: auto;
 }
 
 .websiteclick {
-    cursor: pointer;
+    text-align: center;
     display: inline-block;
-    width: 50%;
+    width: 100%;
+    font-size: 60px;
+}
+
+.websiteclick a{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    max-width: 30vw;
+}
+
+.linkedinclick {
+    min-width: 8vw;
+}
+
+.linkedinclick a{
+    display: inline-block;
 }

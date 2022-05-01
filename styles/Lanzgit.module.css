@@ -38,24 +38,44 @@
 }
 
 .gitclick {
+    text-align: left;
+    font-size: 60px;
+}
+
+.gitclick a{
     cursor: pointer;
     display: inline-block;
-    width: 19%;
-    overflow: hidden;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
 }
 
 .seduceclick {
+    text-align: left;
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 40px;
+}
+
+.seduceclick a {
     cursor: pointer;
     display: inline-block;
-    width: 90%;
-    overflow: hidden;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
 }
 
 .creatorclick {
+    text-align: left;
+    font-size: 40px;
+}
+
+.creatorclick a {
     cursor: pointer;
     display: inline-block;
-    width: 65%;
-    overflow: hidden;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
 }
 
 .htitle {
