@@ -86,15 +86,15 @@
 }
 
 .container {
+    max-width: 50vw;
     background-color: #141414;
-    height: auto;
+    height: inherit;
     border-width: 5px;
     border-color: red;
     border: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
     margin-bottom: 10%;
 }
 
@@ -103,8 +103,9 @@
 }
 
 .image {
-    width: 95%;
-    height: initial;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .desc {
@@ -120,26 +121,21 @@
 
 .proj_pic1 {
     display: block;
-    max-width: 25vw;
-    max-height: 10vw;
     margin: auto;
     width: auto;
     height: auto;
-    margin-top: 2%;
-    transform: scale(1.3);
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .proj_pic2 {
     display: block;
-    max-width: 38vw;
-    max-height: 10vw;
-
-    position: relative;
-    height: auto;
-    width: auto;
     margin: auto;
-    top: 330px;
-    transform: scale(1.05);
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .lanzgit li {
