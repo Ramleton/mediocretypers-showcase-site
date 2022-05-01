@@ -25,6 +25,7 @@
 .pic_pos {
     align-items: center;
     justify-content: center;
+    margin-top: 4%;
     margin-bottom: 10%;
     padding-right: 9%;
 }
