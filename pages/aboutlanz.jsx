@@ -9,7 +9,7 @@ const AboutLanz = () => {
                 If you want to learn more about me, click on my name at the navbar!
             </p>
             <p>Here's my handsome face!</p>
-            <img className={styles.portrait} src="https://i.imgur.com/sJtBGJL.png"></img>
+            <img className={styles.portrait} src="https://i.imgur.com/Qu63YAy.jpg"></img>
         </div>
     </div>;
 }
