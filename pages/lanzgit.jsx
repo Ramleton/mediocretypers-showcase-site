@@ -67,7 +67,7 @@ const lanzgit = () => (
           <h2>
             <div className={styles.creatorclick}>
               <Link href="https://github.com/Bodyshots/MassFolderCreator">
-                <a>Mass File Creator (Java)</a>
+                <a>Mass Folder Creator (Java)</a>
               </Link>
             </div>
           </h2>
