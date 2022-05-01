@@ -9,7 +9,9 @@ const lanz = () => (
       <LanzIntro></LanzIntro>
       <LanzGit></LanzGit>
       <Link href="https://github.com/Ramleton/mediocretypers-showcase-site">
-        <h1 className={styles.clickable}>...and this website!</h1>
+        <div className={styles.htitle}>
+          <h1 className={styles.websiteclick}>...and this website!</h1>
+        </div>
       </Link>
       <div className={styles.row}>
         <div className={styles.column}>

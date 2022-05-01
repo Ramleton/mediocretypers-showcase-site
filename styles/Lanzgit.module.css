@@ -29,20 +29,39 @@
     padding-right: 9%;
 }
 
-.column {
-    flex: 50%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.row {
+    display: flex;
 }
 
-.clickable {
-    display: flex;
+.column {
+    flex: 50%;
+}
+
+.gitclick {
     cursor: pointer;
+    display: inline-block;
+    width: 19%;
+    overflow: hidden;
+}
+
+.seduceclick {
+    cursor: pointer;
+    display: inline-block;
+    width: 90%;
+    overflow: hidden;
+}
+
+.creatorclick {
+    cursor: pointer;
+    display: inline-block;
+    width: 65%;
+    overflow: hidden;
+}
+
+.htitle {
     text-align: start;
-    font-size: 35px;
-    margin-bottom: -5px;
+    font-size: 30px;
+    margin-bottom: -15px;
     width: 90%;
 }
 
@@ -76,7 +95,7 @@
     text-align: left;
     font-size: 20px;
     width: 85%;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
 .proj_pic1 {
@@ -94,7 +113,7 @@
     display: block;
     max-width: 38vw;
     max-height: 10vw;
-    margin-top: 5%;
+
     position: relative;
     height: auto;
     width: auto;

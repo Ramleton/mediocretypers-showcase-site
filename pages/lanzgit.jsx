@@ -6,6 +6,7 @@ import styles from "../styles/Lanzgit.module.css";
 
 const lanzgit = () => (
     <div className={styles.lanzgit}>
+      <div className={styles.row}>
         <div className={styles.column}>
           <div>
               <div className={styles.pic_pos}>
@@ -31,12 +32,16 @@ const lanzgit = () => (
     </div>
         <div className={styles.column}>
           <Link href="https://github.com/Bodyshots">
-            <h2 className={styles.clickable}>Github</h2>
+            <div className={styles.htitle}>
+              <h2 className={styles.gitclick}>Github</h2>
+            </div>
           </Link>
           <p className={styles.proj_text}>Here's where you can find all of my projects. Currently, I have three (non-school related) projects.
            Click any of them to go to their respective source code pages:</p>
           <Link href="https://github.com/Bodyshots/seducer-bootleg">
-            <h2 className={styles.clickable}>(Not) Super Seducer: The Bootleg Version (Python)</h2>
+            <div className={styles.htitle}>
+              <h2 className={styles.seduceclick}>(Not) Super Seducer: The Bootleg Version (Python)</h2>
+            </div>
           </Link>
           <p className={styles.proj_text}>A single-player dating game in which the player has to endure a series of questions.
           Depending on your date's personality and how you respond to a question, you may gain or lose confidence
@@ -53,7 +58,9 @@ const lanzgit = () => (
           date!</p>
           <br />
           <Link href="https://github.com/Bodyshots/MassFolderCreator">
-            <h2 className={styles.clickable}>Mass File Creator (Java)</h2>
+            <div className={styles.htitle}>
+              <h2 className={styles.creatorclick}>Mass File Creator (Java)</h2>
+            </div>
           </Link>
           <p className={styles.proj_text}>A simple program that allows you to create multiple folders at once,
           wherever you are.
@@ -73,6 +80,7 @@ const lanzgit = () => (
                                               <li>X week folders inside your course folder</li>
           <br />
         </div>
+      </div>
     </div>
 );
 

@@ -58,8 +58,14 @@
     margin-bottom: 0%;
 }
 
-.clickable {
-    display: inline-block;
+.htitle {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.websiteclick {
     cursor: pointer;
-    overflow: hidden;
+    display: inline-block;
+    width: 50%;
 }
