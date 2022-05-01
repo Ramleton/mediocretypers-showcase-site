@@ -1,6 +1,6 @@
 .lanzgit {
     text-align: right;
-    height: calc(100vh - 60px);
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -9,6 +9,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .lanzgit h2 {
@@ -23,7 +25,7 @@
     border-width: 5px;
     border-color: black;
     border-radius: 20%;
-    width: 300%;
+    width: 200%;
     text-align: left;
     align-items: left;
 }
@@ -40,9 +42,19 @@
 .lanzgit avatar_pos {
     padding-left:auto;
     padding-right:auto;
-    right: 75%;
+    right: 72.5%;
+    top: 3.5%;
     position: absolute;
     width: 100%;
+}
+
+.p1img {
+    display: block;
+    padding-left:auto;
+    padding-right:auto;
+    left: 17.5%;
+    position: absolute;
+    width: 150%;
 }
 
 .lanzgit title {
