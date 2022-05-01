@@ -10,12 +10,12 @@
 
 .githubavatar {
     display: block;
-    width: 225%;
+    width: 255%;
     height: auto;
     border: solid;
-    border-width: 5px;
+    border-width: 10px;
     border-color: black;
-    border-radius: 20%;
+    border-radius: 100%;
     margin: auto;
     flex-direction: column;
     max-width: 18vw;
