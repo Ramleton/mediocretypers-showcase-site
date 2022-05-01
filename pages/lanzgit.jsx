@@ -17,13 +17,17 @@ const lanzgit = () => (
             <div>
               <div className={styles.proj_pic1}>
                 <Project project_name="(Not) Super Seducer: The Bootleg Version" project_img_src="https://i.imgur.com/D03IXlf.png"
-                         project_desc={"Game in-action. Depending on your choices, you will either gain or lose \"confidence.\""} project_styles={
+                         project_desc={"An instance of the game where we're dating a randomly-generated person named \"Elsie\".\
+                                        After choosing option A, we gain \"confidence\" for predicting the best option that aligns with\
+                                        our date's personality."} project_styles={
                          styles}>
                 </Project>
               </div>
               <div className={styles.proj_pic2}>
                 <Project project_name="Mass Folder Creator" project_img_src="https://i.imgur.com/Mr8Acil.png"
-                         project_desc={"An example use case. Here, we try to create 5 numbered folders named \"Week\"."} project_styles={
+                         project_desc={"An example use case. In a folder that has additional three folders, named \"Week 1\", \"Week 2\", and \"Week 3,\"\
+                                        we try to create 5 \"Week\" folders. As a result, the program fails to create \"Week\" folders 1-3, but succeeds in\
+                                        creating \"Week\" folders 4-5."} project_styles={
                          styles}>
                 </Project>
                </div>
