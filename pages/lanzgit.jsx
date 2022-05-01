@@ -3,6 +3,7 @@ import Link from "next/link";
 import GithubButton from '../components/GithubButton';
 import Project from '../components/Project';
 import styles from "../styles/Lanzgit.module.css";
+import styles2 from "../styles/Lanzgitproj2.module.css"
 
 const lanzgit = () => (
     <div className={styles.lanzgit}>
@@ -21,21 +22,30 @@ const lanzgit = () => (
             <Link href="https://github.com/Bodyshots/seducer-bootleg">
                 <h2 className={styles.title}>(Not) Super Seducer: The Bootleg Version</h2>
             </Link>
-            <p1img>
-                <Project project_name="test1" project_img_src="https://i.imgur.com/D03IXlf.png" project_desc={"image text"} project_styles={styles.p1img}>
-                </Project>
-            </p1img>
-            <projecttext> flavour tesxt</projecttext>
+            <Project project_name="(Not) Super Seducer: The Bootleg Version" project_img_src="https://i.imgur.com/D03IXlf.png"
+            project_desc={"Game in-action. Depending on your choices, you will either gain or lose \"confidence.\""} project_styles={styles}>
+            </Project>
+            <projecttext>A single-player dating game in which the player has to endure a series of questions.
+            <br />
+            <br />
+            This features: <li>Multiple 8-bit/16-bit songs! </li>
+                           <li>4 different personalities to date!</li>
+                           <li>50+ dating questions!</li>
+                           <li>3 Difficulty levels to choose from!</li>
+            <br />
+            <br />
+            Play the game to try and find out if you can endure the ruthless questioning from your date!
+            </projecttext>
+            <br />
+            <br />
             <Link href="https://github.com/Bodyshots/MassFolderCreator">
                 <h2 className={styles.title}>Mass File Creator</h2>
             </Link>
-            <Project project_name="test2" project_img_src="https://i.imgur.com/D03IXlf.png" project_desc={"testing2"}>
+            <Project project_name="Mass Folder Creator" project_img_src="https://i.imgur.com/Mr8Acil.png"
+            project_desc={"An example use case. Here, we try to create 5 numbered folders named \"Week\"."} project_styles={styles2}>
             </Project>
             <projecttext>iukhsfgdsfgdiklujhgfds</projecttext>
-            <h2>This website!</h2>
-            <Project project_name="test3" project_img_src="https://i.imgur.com/D03IXlf.png" project_desc={"testing3"}>
-            </Project>
-            <projecttext>dfguhsdlgjfjh</projecttext>
+            <b>This website!</b>
         </projects>
 
     </div>

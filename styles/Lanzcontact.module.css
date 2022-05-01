@@ -26,3 +26,7 @@
 .lanzcontact p {
     cursor: pointer;
 }
+
+.lanzcontact text {
+    font-size: 30px;
+}

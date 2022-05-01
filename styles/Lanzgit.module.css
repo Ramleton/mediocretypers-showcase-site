@@ -39,22 +39,54 @@
     padding-left: 21%;
 }
 
+.lanzgit b {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
 .lanzgit avatar_pos {
     padding-left:auto;
     padding-right:auto;
-    right: 72.5%;
-    top: 3.5%;
+    right: 70%;
+    top: 1.5%;
     position: absolute;
     width: 100%;
 }
 
-.p1img {
-    display: block;
-    padding-left:auto;
-    padding-right:auto;
-    left: 17.5%;
+.container {
+    width:40%;
+    background-color: #141414;
+    height: inherit;
+    border-width: 5px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 51%;
+    top: 17.5%;
     position: absolute;
-    width: 150%;
+}
+
+.title {
+    text-align: left;
+}
+
+.image {
+    width: 90%;
+    height: 20%;
+}
+
+.desc {
+    width: inherit;
+    text-align: center;
+    position: relative;
+    right: 50%
 }
 
 .lanzgit title {
@@ -83,4 +115,8 @@
     text-align: left;
     font-size: 20px;
     padding-left: 48%;
+}
+
+.lanzgit li {
+    margin-top: 10px;
 }
