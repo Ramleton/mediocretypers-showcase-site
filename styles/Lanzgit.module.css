@@ -87,10 +87,8 @@
 }
 
 .desc {
-    width: inherit;
     text-align: center;
-    position: relative;
-    right: 50%
+    right: 40%
 }
 
 .lanzgit title {
