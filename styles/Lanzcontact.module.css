@@ -1,26 +1,23 @@
 .lanzcontact {
-    text-align: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
+    text-align: right;
     background-color: #191023;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    width: 100%;
+    width: 50%;
+    float: right;
+    padding-right: 2%;
+    height: 100%;
 }
 
 .lanzcontact h3 {
     width: 100%;
     font-size: 30px;
-    text-align: center;
+    padding-left: 20%;
 }
 
 .lanzcontact ul {
-    text-align: center;
-    justify-content: top;
+    justify-content: right;
 }
 
 .lanzcontact p {

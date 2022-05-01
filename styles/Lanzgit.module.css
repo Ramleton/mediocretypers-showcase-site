@@ -41,17 +41,14 @@
 
 .lanzgit b {
     text-align: center;
-    display: block;
     font-size: 3em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    text-align: start;
     flex-direction: column;
     justify-content: top;
-    align-items: center;
     position: relative;
     right: 50%;
     bottom: 10%;
