@@ -1,0 +1,19 @@
+.aboutishaan {
+    background-color: #191023;
+    width: 50%;
+    min-height:50vw;
+    float: left;
+}
+
+.text {
+    color: aliceblue;
+    text-align: center;
+}
+
+.portrait {
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 25%;
+    width: 25vw;
+}

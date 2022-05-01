@@ -1,0 +1,95 @@
+.lanz {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    padding: 4rem 0;
+    min-height: 100%;
+    background-color: #191023;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lanz bold {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.skills {
+    text-align: left;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 2%;
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.contact {
+    text-align: right;
+    justify-content: right;
+    font-size: 30px;
+    margin: auto;
+    height: auto;
+    padding-right: 2%;
+    border-color: red;
+    border-width: 5px;
+    border-width: 100%;
+}
+
+.row {
+    flex: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.lanz h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 2em;
+    flex-direction: column;
+}
+
+.lanz ul {
+    margin-bottom: 0%;
+}
+
+.htitle {
+    display:block;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    margin: auto;
+}
+
+.websiteclick {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 60px;
+}
+
+.websiteclick a{
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    max-width: 30vw;
+}
+
+.linkedinclick {
+    min-width: 8vw;
+}
+
+.linkedinclick a{
+    display: inline-block;
+}

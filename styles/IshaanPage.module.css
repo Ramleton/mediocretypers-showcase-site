@@ -1,0 +1,40 @@
+
+.page {
+    height: fit-content;
+    width: auto;
+    padding: 4rem 0;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.experience_row {
+    display: flex;
+    padding: 0.5vh;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.projects {
+    background-image: url("https://c.tenor.com/TwVp807OEX4AAAAC/gears-moving.gif");
+    background-repeat: repeat;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.centered_items {
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

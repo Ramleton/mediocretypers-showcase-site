@@ -1,0 +1,145 @@
+.lanzgit {
+    height: 100%;
+    display: flex;
+    background-color: #191023;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.githubavatar {
+    display: block;
+    width: 225%;
+    height: auto;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20%;
+    margin: auto;
+    flex-direction: column;
+    max-width: 18vw;
+    max-height: 20vw;
+}
+
+.pic_pos {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    padding-right: 9%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.gitclick {
+    text-align: left;
+    font-size: 60px;
+}
+
+.gitclick a{
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
+}
+
+.seduceclick {
+    text-align: left;
+    display: inline-block;
+    padding-right: 10%;
+    font-size: 40px;
+}
+
+.seduceclick a {
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
+}
+
+.creatorclick {
+    text-align: left;
+    font-size: 40px;
+}
+
+.creatorclick a {
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: 14vw;
+}
+
+.htitle {
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: -15px;
+    width: 90%;
+}
+
+.container {
+    max-width: 50vw;
+    background-color: #141414;
+    height: inherit;
+    border-width: 5px;
+    border-color: red;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.title {
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+}
+
+.proj_text {
+    text-align: left;
+    font-size: 20px;
+    width: 85%;
+    margin-bottom: -5px;
+}
+
+.proj_pic1 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.proj_pic2 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.lanzgit li {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}

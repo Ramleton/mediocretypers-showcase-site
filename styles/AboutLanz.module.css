@@ -1,0 +1,20 @@
+.aboutlanz {
+    background-color: #191023;
+    float: right;
+    width:50%;
+    min-height: 50vw;
+}
+
+.text {
+    color: aliceblue;
+    text-align: center;
+}
+
+.portrait {
+    border: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 25%;
+    width: 25vw;
+    transform: scaleX(-1);
+}
